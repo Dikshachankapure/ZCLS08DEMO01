@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta charset="UTF-8">
+
+		<title>ZCLSO8DEMO01</title>
+
+		<script id="sap-ui-bootstrap"
+			src="../../resources/sap-ui-core.js"
+			data-sap-ui-async="false"
+			data-sap-ui-libs="sap.m"
+			data-sap-ui-theme="sap_belize"
+			data-sap-ui-compatVersion="edge"
+			data-sap-ui-resourceroots='{"com.emax.ZCLSO8DEMO01": "./"}'>
+		</script>
+
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+
+		<script>
+		//ui area
+		var obtn = new sap.m.Button({ text: "Register"});
+		//convert into html and will place obtn at
+		obtn.placeAt("content");
+		
+		var olbl = new sap.m.Label({text : "Employee Name"});
+		olbl.placeAt("content");
+		
+		var oinp = new sap.m.Input({text : "diksha"});
+		oinp.placeAt("content");
+		</script>
+	</head>
+
+	<body class="sapUiBody" id="content">
+	</body>
+
+</html>
